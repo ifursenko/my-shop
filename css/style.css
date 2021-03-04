@@ -1,0 +1,223 @@
+
+:root {
+    --dark-blue: #222222;
+    --pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --brown: #474040;
+    --grey: #F8F8F8;
+}
+
+body {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 10px 0 0;
+}
+
+.header__person-link {
+    margin: 0 34px 0 0;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__title-wrapper {
+    padding: 0 0 0 91px;
+    flex-grow: 1;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+}
+
+.brand__subtitle {
+    display: block;
+
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__item {
+    color: white;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__item--woman {
+    background-image: url(../img/woman.png);
+}
+
+.offers__item--man {
+    background-image: url(../img/man2.png);
+}
+
+.offers__item--accesories {
+    width: 100%;
+    margin: 0;
+    background-image: url(../img/acssesories.png);
+}
+.offers__item--kids {
+    background-image: url(../img/kid.png);
+}
+.offers__title {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.offers__text {
+
+font-size: 18px;
+font-weight: 900;
+line-height: 22px;
+text-transform: uppercase;
+color: var(--dark-pink);
+text-align: center;
+
+
+}
+
+.description {
+    justify-content: center;
+    display :flex ;
+    flex-direction: column;
+    align-items: center;
+    margin: 97px 0px 48px 0px;
+}
+
+.description__title{
+    
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+
+}
+
+.description__text {
+   
+font-size: 14px;
+line-height: 17px;
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+} 
+
+.card__items {
+    width: 360px;
+    min-height: 581px;
+    background-color: var(--grey) ;
+    margin: 0 0 30px;
+}
+ .card__text {
+     margin: 25px 28px 20px 18px;
+ }
+ .card__title {
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+     }
+.card__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 18px;
+
+}
+
+.card__price {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-pink);
+}
+.button {
+    display: flex;
+    margin:auto;
+    margin-top:48px ;
+    margin-bottom: 95px;
+    width: 211px;
+    height: 47px;
+   border: solid 1px var(--dark-pink);
+   align-items: center;
+   justify-content: center;
+}
+
+.button__text {
+    font-size: 16px;
+line-height: 19px;
+color: var(--dark-pink);
+text-decoration: none;
+}
